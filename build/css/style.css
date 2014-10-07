@@ -1,0 +1,240 @@
+body {
+	background:#fff;
+	width:100%;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size:14px;
+	line-height:18px;
+	color:#373946;
+	font-smooth: always;
+	-webkit-font-smoothing: antialiased;
+}
+
+.logo {
+	float:left;
+	margin-top:10px;
+}
+.titlediv {
+	float:left;
+	width:100%;
+	margin:30px 0;
+}
+.titlediv h2 {
+	float:left;
+	width:100%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	color:#000;
+	font-size:36px;
+	line-height:36px;
+	padding:0 0 10px;
+	margin:0;
+}
+.titlediv p {
+	float:left;
+	width:100%;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	color:#000;
+	font-size:14px;
+	line-height:20px;
+	padding:0 0 10px;
+	margin:0;
+}
+.copyright {
+	float:left;
+	width:100%;
+}
+.copyright p {
+	float:left;
+	width:100%;
+	font-family: 'PT Sans';
+	font-style: normal;
+	font-weight: 400;
+	color:#000;
+	font-size:14px;
+	line-height:20px;
+	padding:0 0 10px;
+	margin:0;
+	text-align:center;
+}
+.footer {
+	padding-top:30px;
+	padding-bottom: 20px;
+	margin-top: 50px;
+	border-top: 1px solid #eee;
+}
+.desktop{
+	display:none !important;
+}
+.GalleryDiv{
+	float:left;
+	width:100%;
+}
+
+.modal-footer{
+	font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size:14px;
+}
+
+
+/*!
+ * Lightbox CSS
+ */
+
+.ekko-lightbox-container {
+	position: relative;
+}
+.ekko-lightbox-nav-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+}
+.ekko-lightbox-nav-overlay a {
+	z-index: 100;
+	display: block;
+	width: 49%;
+	height: 100%;
+	padding-top: 45%;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 2px 2px 4px #000;
+	opacity: 0;
+	filter: dropshadow(color=#000000, offx=2, offy=2);
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+.ekko-lightbox-nav-overlay a:empty {
+	width: 49%;
+}
+.ekko-lightbox a:hover {
+	text-decoration: none;
+	opacity: 1;
+}
+.ekko-lightbox .glyphicon-chevron-left {
+	left: 0;
+	float: left;
+	padding-left: 15px;
+	text-align: left;
+}
+.ekko-lightbox .glyphicon-chevron-right {
+	right: 0;
+	float: right;
+	padding-right: 15px;
+	text-align: right;
+}
+.ekko-lightbox .modal-footer {
+	text-align: left;
+}
+/***/
+
+.modal-backdrop.in {
+	-webkit-opacity: 0.95;
+	-moz-opacity: 0.95;
+	opacity: 0.95;
+	background-color: #333333;
+}
+.ekko-lightbox .modal-content {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	background-color: transparent;
+}
+.ekko-lightbox .modal-header {
+	border: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.ekko-lightbox .modal-header .close {
+	-webkit-opacity: 0.5;
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	color: #fff;
+	text-shadow: 0;
+	font-weight: 100;
+	margin-top: 5px;
+}
+.ekko-lightbox .modal-header .close:hover {
+	-webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.ekko-lightbox .modal-header h4.modal-title {
+	font-weight: 100;
+	color: #fff;
+	padding: 0;
+	font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size:22px;
+}
+.ekko-lightbox .modal-body {
+	padding: 0;
+}
+.ekko-lightbox .modal-footer {
+	-webkit-opacity: 0.9;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	border: 0;
+	color: #fff;
+	font-weight: 100;
+	padding: 0;
+}
+.ekko-lightbox-nav-overlay a {
+	-webkit-opacity: 0.9;
+	-moz-opacity: 0.9;
+	opacity: 0.9;
+	text-shadow: none;
+}
+
+/**/
+.GalleryDiv a img:hover{
+	background:rgba(0.0.0, 0.5)
+}
+
+.MarginTop1{
+	margin-top:30px;
+}
+
+a.info img{
+	 opacity: 1;
+   overflow:visible;
+   border:0px solid rgba(0,0,0,0.8);
+   -moz-box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   box-sizing:border-box;
+   -webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -ms-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}
+a.info img:hover{
+   border:15px solid rgba(0,0,0,0.8);
+	opacity:1;
+	-moz-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	-o-transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	transform:scale(1,1);
+	-moz-transition-delay:0.3s;
+	-webkit-transition-delay:0.3s;
+	-o-transition-delay:0.3s;
+	-ms-transition-delay:0.3s;
+	transition-delay:0.3s;
+}
+	
